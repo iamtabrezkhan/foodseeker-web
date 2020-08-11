@@ -1,0 +1,36 @@
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main .historyContainer {
+}
+
+.main .historyContainer .history {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .col {
+  width: calc(40% - 20px);
+  padding: 10px;
+}
+
+.main .btn {
+  width: calc(20% - 20px);
+  padding: 10px;
+}
+
+.main .btn a {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 3px 6px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  box-shadow: 1px 1px 10px -3px rgba(0, 0, 0, 0.5);
+  background: seagreen;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
